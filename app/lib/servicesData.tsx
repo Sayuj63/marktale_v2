@@ -35,6 +35,7 @@ export interface ServiceData {
     slug: string;
     title: string;
     icon: any;
+    image: string;
     tagline: string;
     heroDescription: string;
     metaDescription: string;
@@ -50,6 +51,7 @@ export const services: ServiceData[] = [
         slug: 'web-development',
         title: 'Web Development Services',
         icon: Globe,
+        image: '/images/services/web_development_1768164760639.png',
         tagline: 'Your Partner For High-Performing Web Development',
         heroDescription: 'We deliver web development services engineered for performance, scalability, and long-term business growth. Our approach blends technical excellence, conversion-focused design, and strategic architecture to create digital experiences that attract, engage, and convert.',
         metaDescription: 'Custom, high-performing web development services by MarkTale. We build scalable, SEO-ready websites designed to drive growth and conversions.',
@@ -157,6 +159,7 @@ export const services: ServiceData[] = [
         slug: 'video-content-creation',
         title: 'Video Content Creation',
         icon: Video,
+        image: '/images/services/video_content_1768164776471.png',
         tagline: 'Visual Storytelling That Captivates and Converts',
         heroDescription: 'In a digital landscape dominated by short attention spans, video is the most powerful tool to engage your audience. We produce high-quality, narrative-driven video content that not only showcases your brand but creates meaningful emotional connections with your customers.',
         metaDescription: 'Professional video content creation services. We craft compelling visual stories that drive engagement and brand loyalty.',
@@ -212,6 +215,7 @@ export const services: ServiceData[] = [
         slug: 'market-research',
         title: 'Market Research',
         icon: Search,
+        image: '/images/services/market_research_1768164791783.png',
         tagline: 'Data-Driven Insights for Confident Decisions',
         heroDescription: 'Stop guessing and start knowing. Our in-depth market research services provide the concrete data and behavioral insights you need to de-risk your business decisions, identify new opportunities, and outmaneuver the competition.',
         metaDescription: 'Comprehensive market research services. We provide the data and insights you need to make informed business decisions.',
@@ -256,6 +260,7 @@ export const services: ServiceData[] = [
         slug: 'marketing-plan-development',
         title: 'Marketing Plan Development',
         icon: FileText,
+        image: '/images/services/marketing_strategy_1768164808685.png',
         tagline: 'Strategic Blueprints for Sustainable Growth',
         heroDescription: 'A goal without a plan is just a wish. We develop comprehensive, data-backed marketing strategies that align with your business objectives, ensuring every dollar spent contributes to your bottom line.',
         metaDescription: 'Strategic marketing plan development. We build the roadmap to your business success.',
@@ -301,6 +306,7 @@ export const services: ServiceData[] = [
         slug: 'lead-generation',
         title: 'Lead Generation',
         icon: Target,
+        image: '/images/services/lead_generation_1768164831252.png',
         tagline: 'Fueling Your Sales Pipeline with Quality Prospects',
         heroDescription: 'Quantity is vanity; quality is sanity. Our lead generation strategies are hyper-focused on identifying and nurturing high-intent prospects who are ready to buy, maximizing your sales team’s efficiency and ROI.',
         metaDescription: 'High-quality lead generation services. We fill your pipeline with prospects ready to convert.',
@@ -336,6 +342,7 @@ export const services: ServiceData[] = [
         slug: 'online-reputation-management',
         title: 'Online Reputation Management',
         icon: ShieldCheck,
+        image: '/images/services/online_reputation_management_1768164848177.png',
         tagline: 'Protecting and Enhancing Your Digital Legacy',
         heroDescription: 'Your reputation is your most valuable asset. We help you build, monitor, and protect your brand’s online image, ensuring that when customers search for you, they see the best version of your business.',
         metaDescription: 'Expert online reputation management. We safeguard your brand image and build digital trust.',
@@ -371,6 +378,7 @@ export const services: ServiceData[] = [
         slug: 'ui-ux-design',
         title: 'UI / UX Design',
         icon: Palette,
+        image: '/images/services/ui_ux_design_1768164866638.png',
         tagline: 'Designing Intuitive Digital Experiences',
         heroDescription: 'Great design is invisible—it just works. We create user-centric interfaces that are not only visually stunning but also intuitive and accessible, reducing friction and delighting users at every interaction.',
         metaDescription: 'User-centric UI/UX design services. We create beautiful, functional digital products.',
@@ -406,6 +414,7 @@ export const services: ServiceData[] = [
         slug: 'performance-marketing',
         title: 'Performance Marketing',
         icon: TrendingUp,
+        image: '/images/services/performance_marketing_1768164883170.png',
         tagline: 'Data-Focused Advertising for Maximum ROI',
         heroDescription: 'Stop wasting budget on impressions that don’t convert. Our performance marketing strategies are laser-focused on driving measurable actions—clicks, leads, and sales—at the lowest possible acquisition cost.',
         metaDescription: ' ROI-driven performance marketing. We optimize your ad spend for maximum impact.',
@@ -441,6 +450,7 @@ export const services: ServiceData[] = [
         slug: 'seo-analytics',
         title: 'SEO & Analytics',
         icon: BarChart,
+        image: '/images/services/seo_analytics_1768164897957.png',
         tagline: 'Visibility and Insights for Long-Term Growth',
         heroDescription: 'Ranking high is good; ranking for the right keywords is better. We implement white-hat SEO strategies to drive organic traffic, paired with advanced analytics to turn that traffic into actionable business intelligence.',
         metaDescription: 'Advanced SEO and analytics services. We help you dominate search results and understand your data.',

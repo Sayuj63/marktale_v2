@@ -1,14 +1,13 @@
 'use client';
 
 import React from 'react';
-import Image from 'next/image';
 import { motion } from 'framer-motion';
 import Link from 'next/link';
 
 export default function TeamCTA() {
     return (
-        <section className="relative w-full bg-white pt-24 pb-0">
-            <div className="container mx-auto px-6 max-w-7xl text-center mb-16">
+        <section className="relative w-full bg-white pt-24 pb-24">
+            <div className="container mx-auto px-6 max-w-7xl text-center">
                 <motion.div
                     initial={{ opacity: 0, y: 30 }}
                     whileInView={{ opacity: 1, y: 0 }}
@@ -25,16 +24,6 @@ export default function TeamCTA() {
                         Get In Touch
                     </Link>
                 </motion.div>
-            </div>
-
-            <div className="relative w-full h-[300px] md:h-[500px] lg:h-[600px] grayscale">
-                <Image
-                    src="/images/team-bw.png"
-                    alt="Marktale Team"
-                    fill
-                    className="object-cover object-top"
-                />
-                <div className="absolute inset-x-0 bottom-0 h-32 bg-gradient-to-t from-black/5 to-transparent" />
             </div>
         </section>
     );

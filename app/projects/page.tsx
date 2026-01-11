@@ -1,10 +1,10 @@
 'use client';
 
 import React from 'react';
-import PageHero from '@/app/components/ui/PageHero';
-import ProjectsGallery from '@/app/components/projects/ProjectsGallery';
+import PageHero from '@/components/ui/PageHero';
+import ProjectsGallery from '@/components/projects/ProjectsGallery';
 import TeamCTA from '@/components/TeamCTA';
-import GlobalIndustries from '@/app/components/GlobalIndustries';
+import GlobalIndustries from '@/components/GlobalIndustries';
 
 export default function ProjectsPage() {
     return (

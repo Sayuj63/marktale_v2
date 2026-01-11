@@ -1,9 +1,9 @@
 'client';
 
 import React from 'react';
-import PageHero from '@/app/components/ui/PageHero';
-import AwardsGrid from '@/app/components/awards/AwardsGrid';
-import AwardsImpact from '@/app/components/awards/AwardsImpact';
+import PageHero from '@/components/ui/PageHero';
+import AwardsGrid from '@/components/awards/AwardsGrid';
+import AwardsImpact from '@/components/awards/AwardsImpact';
 import TeamCTA from '@/components/TeamCTA';
 
 export default function AwardsPage() {

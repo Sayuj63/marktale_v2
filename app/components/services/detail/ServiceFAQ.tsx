@@ -3,7 +3,7 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Plus, Minus } from 'lucide-react';
-import { ServiceFAQ as FAQType } from '@/app/lib/servicesData';
+import { ServiceFAQ as FAQType } from '@/lib/servicesData';
 
 interface ServiceFAQProps {
     faqs: FAQType[] | undefined;

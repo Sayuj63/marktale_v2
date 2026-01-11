@@ -3,7 +3,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Check, ArrowRight } from 'lucide-react';
-import { ServiceSection } from '@/app/lib/servicesData';
+import { ServiceSection } from '@/lib/servicesData';
 
 interface ServiceContentProps {
     sections: ServiceSection[];

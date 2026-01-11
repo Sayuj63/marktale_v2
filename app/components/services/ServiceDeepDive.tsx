@@ -11,21 +11,21 @@ const deepDives = [
         subtitle: "Video Content Creation",
         content: "Crafting captivating video content is crucial for brands to engage their audience and showcase their products or services in a compelling manner. Our team of creative professionals specializes in producing high-quality, attention-grabbing videos that tell your brand’s story and drive meaningful connections with your target market.",
         benefits: ["High-quality Production", "Attention-Grabbing", "Brand Storytelling", "Meaningful Connections"],
-        image: "/images/services/video-content.png"
+        image: "/images/services/video_content_1768164776471.png"
     },
     {
         title: "Deep Understanding",
         subtitle: "Market Research",
         content: "We employ a multi-faceted approach to understand your audience:\n\n• Qualitative Research: In-depth interviews and focus groups to understand audience needs, pain points, and preferences.\n• Quantitative Analysis: Analysis of large-scale survey data to identify statistically significant trends.\n• Observational Studies: Ethnographic research observing customers in natural environments.",
         benefits: ["Audience Needs", "Pain Points", "Significant Trends", "Natural Behaviors"],
-        image: "/images/services/market-research.png"
+        image: "/images/services/market_research_1768164791783.png"
     },
     {
         title: "Strategy First",
         subtitle: "Marketing Plan Development",
         content: "We take a strategic, data-driven approach to marketing, blending traditional and digital techniques to create customized solutions for your brand. Our comprehensive planning includes data-driven insights and creative ideation to ensure your marketing efforts yield maximum impact.",
         benefits: ["Comprehensive Planning", "Data-Driven Insights", "Creative Ideation", "Customized Solutions"],
-        image: "/images/services/marketing-strategy.png"
+        image: "/images/services/marketing_strategy_1768164808685.png"
     }
 ];
 

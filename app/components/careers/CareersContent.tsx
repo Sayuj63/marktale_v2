@@ -41,7 +41,7 @@ export default function CareersContent() {
             <div className="container mx-auto px-6">
 
                 {/* Why Join Us */}
-                <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 mb-24 items-center">
+                <div className="mb-24">
                     <div>
                         <span className="text-kestone-red font-bold tracking-widest uppercase text-sm mb-4 block">Our Culture</span>
                         <h2 className="text-4xl font-heading font-bold mb-6 text-kestone-black">
@@ -58,15 +58,6 @@ export default function CareersContent() {
                                 </div>
                             ))}
                         </div>
-                    </div>
-                    <div className="relative h-96 bg-gray-100 rounded-2xl overflow-hidden">
-                        {/* Placeholder for Culture Image - Using one of the generated assets */}
-                        <Image
-                            src="/images/team-bw.png"
-                            alt="MarkTale Culture"
-                            fill
-                            className="object-cover filter grayscale hover:grayscale-0 transition-all duration-700"
-                        />
                     </div>
                 </div>
 

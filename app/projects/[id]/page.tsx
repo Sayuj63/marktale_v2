@@ -1,7 +1,7 @@
 import React from 'react';
 import { notFound } from 'next/navigation';
-import { projects } from '@/app/lib/projects';
-import PageHero from '@/app/components/ui/PageHero';
+import { projects } from '@/lib/projects';
+import PageHero from '@/components/ui/PageHero';
 import TeamCTA from '@/components/TeamCTA';
 import { ArrowLeft } from 'lucide-react';
 import Link from 'next/link';

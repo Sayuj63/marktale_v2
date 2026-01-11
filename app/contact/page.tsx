@@ -1,9 +1,9 @@
 'use client';
 
 import React from 'react';
-import PageHero from '@/app/components/ui/PageHero';
-import ContactForm from '@/app/components/contact/ContactForm';
-import FAQSection from '@/app/components/contact/FAQSection';
+import PageHero from '@/components/ui/PageHero';
+import ContactForm from '@/components/contact/ContactForm';
+import FAQSection from '@/components/contact/FAQSection';
 
 export default function ContactPage() {
     return (

@@ -1,8 +1,8 @@
-import PageHero from '@/app/components/ui/PageHero';
-import ServicesGrid from '@/app/components/services/ServicesGrid';
-import ProcessSteps from '@/app/components/services/ProcessSteps';
+import PageHero from '@/components/ui/PageHero';
+import ServicesGrid from '@/components/services/ServicesGrid';
+import ProcessSteps from '@/components/services/ProcessSteps';
 import TeamCTA from '@/components/TeamCTA';
-import ServiceDeepDive from '@/app/components/services/ServiceDeepDive';
+import ServiceDeepDive from '@/components/services/ServiceDeepDive';
 
 export default function ServicesPage() {
     return (

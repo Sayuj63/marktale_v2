@@ -131,7 +131,7 @@ export default function WorkGallery() {
                     viewport={{ once: true }}
                 >
                     <h2 className="text-4xl md:text-5xl font-heading font-bold text-kestone-black mb-4">
-                        29 Years Into Delivering Integrated <br /> Sales & Marketing Campaigns
+                        10 Years Into Delivering Integrated <br /> Sales & Marketing Campaigns
                     </h2>
                     <p className="text-gray-500 max-w-2xl mx-auto font-body">
                         With creativity backed by technology, as a B2B marketing agency, we love discovering new ways of building consumer connections and helping you sell more.

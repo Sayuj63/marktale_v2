@@ -1,8 +1,8 @@
 'use client';
 
 import React from 'react';
-import PageHero from '@/app/components/ui/PageHero';
-import BlogGrid from '@/app/components/blogs/BlogGrid';
+import PageHero from '@/components/ui/PageHero';
+import BlogGrid from '@/components/blogs/BlogGrid';
 import TeamCTA from '@/components/TeamCTA';
 
 export default function BlogsPage() {

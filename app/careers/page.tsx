@@ -1,10 +1,10 @@
 'use client';
 
 import React from 'react';
-import PageHero from '@/app/components/ui/PageHero';
-import CareersContent from '@/app/components/careers/CareersContent';
+import PageHero from '@/components/ui/PageHero';
+import CareersContent from '@/components/careers/CareersContent';
 import TeamCTA from '@/components/TeamCTA';
-import TeamCulture from '@/app/components/about/TeamCulture';
+import TeamCulture from '@/components/about/TeamCulture';
 
 export default function CareersPage() {
     return (

@@ -3,7 +3,7 @@
 import React from 'react';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
-import { services } from '@/app/lib/servicesData';
+import { services } from '@/lib/servicesData';
 import { ArrowRight } from 'lucide-react';
 
 export default function ServicesGrid() {

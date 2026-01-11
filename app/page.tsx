@@ -10,9 +10,10 @@ import TeamCTA from "./components/TeamCTA";
 import GlobalIndustries from "./components/GlobalIndustries";
 import CertificationsSection from "./components/CertificationsSection";
 import ReviewsSection from "./components/ReviewsSection";
-import BookAppointmentSection from "./components/BookAppointmentSection";
 import WhatsAppMascot from "./components/WhatsAppMascot";
 import WhatsAppFloat from "./components/WhatsAppFloat";
+import PricingSection from "./components/PricingSection";
+import HomeContactSection from "./components/HomeContactSection";
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
       <WorkGallery />
       <StartupFeature />
       <ServicesSection />
+      <PricingSection />
       <GlobalIndustries />
       <Testimonials />
       <Awards />
@@ -29,7 +31,7 @@ export default function Home() {
       <AboutSection />
       <CertificationsSection />
       <ReviewsSection />
-      <BookAppointmentSection />
+      <HomeContactSection />
 
       {/* Floating WhatsApp Components */}
       <WhatsAppMascot />

@@ -1,10 +1,10 @@
 import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
-import { getAllServiceSlugs, getServiceBySlug } from '@/app/lib/servicesData';
-import ServiceHero from '@/app/components/services/detail/ServiceHero';
-import ServiceContent from '@/app/components/services/detail/ServiceContent';
-import ServiceCTA from '@/app/components/services/detail/ServiceCTA';
-import ServiceFAQ from '@/app/components/services/detail/ServiceFAQ';
+import { getAllServiceSlugs, getServiceBySlug } from '@/lib/servicesData';
+import ServiceHero from '@/components/services/detail/ServiceHero';
+import ServiceContent from '@/components/services/detail/ServiceContent';
+import ServiceCTA from '@/components/services/detail/ServiceCTA';
+import ServiceFAQ from '@/components/services/detail/ServiceFAQ';
 
 interface ServicePageProps {
     params: Promise<{
@@ -53,6 +53,7 @@ export default async function ServicePage({ params }: ServicePageProps) {
                 description={service.heroDescription}
                 iconSmall={<Icon size={18} className="text-kestone-red" />}
                 iconLarge={<Icon size={120} className="absolute text-white/10" />}
+                image={service.image}
             />
 
             <ServiceContent sections={service.sections} />
