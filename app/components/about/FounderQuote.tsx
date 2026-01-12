@@ -2,6 +2,7 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
+import Image from 'next/image';
 
 export default function FounderQuote() {
     return (
@@ -15,11 +16,15 @@ export default function FounderQuote() {
                         whileInView={{ opacity: 1, scale: 1 }}
                         viewport={{ once: true }}
                     >
-                        <div className="aspect-[3/4] bg-neutral-200 relative overflow-hidden grayscale contrast-125">
-                            {/* Placeholder for KK Portrait */}
-                            <div className="absolute inset-0 bg-neutral-300 flex items-center justify-center">
-                                <span className="text-9xl text-neutral-400 font-heading font-black opacity-20">KK</span>
-                            </div>
+                        <div className="aspect-[3/4] bg-neutral-200 relative overflow-hidden grayscale contrast-125 group hover:grayscale-0 transition-all duration-500">
+                            <Image
+                                src="/images/kautilya_kalyan.jpeg"
+                                alt="Kautilya Kalyan - Founder & Visionary"
+                                fill
+                                className="object-cover"
+                            />
+                            {/* Overlay gradient for text readability */}
+                            <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-transparent to-transparent opacity-80" />
                             <div className="absolute bottom-0 left-0 p-6 bg-gradient-to-t from-black/80 to-transparent w-full">
                                 <h3 className="text-white font-heading font-bold text-xl">Kautilya Kalyan</h3>
                                 <p className="text-neutral-300 text-sm uppercase tracking-widest">Founder & Visionary</p>
