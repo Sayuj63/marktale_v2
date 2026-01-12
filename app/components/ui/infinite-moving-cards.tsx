@@ -14,6 +14,7 @@ export const InfiniteMovingCards = ({
     quote: string;
     name: string;
     title: string;
+    rating?: number;
   }[];
   direction?: "left" | "right";
   speed?: "fast" | "normal" | "slow";
@@ -86,6 +87,9 @@ export const InfiniteMovingCards = ({
           start && "animate-scroll",
           pauseOnHover && "hover:[animation-play-state:paused]"
         )}
+        style={{
+          "--gap": "1rem",
+        } as React.CSSProperties}
       >
         {items.map((item, idx) => (
           <li
@@ -102,6 +106,23 @@ export const InfiniteMovingCards = ({
               </span>
               <div className="relative z-20 mt-6 flex flex-row items-center">
                 <span className="flex flex-col gap-1">
+                  {item.rating ? (
+                    <div className="flex gap-1 mb-1">
+                      {[...Array(5)].map((_, i) => (
+                        <svg
+                          key={i}
+                          className={`w-4 h-4 ${i < Math.round(item.rating!)
+                            ? "text-yellow-400 fill-yellow-400"
+                            : "text-gray-300 fill-gray-300"
+                            }`}
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="0 0 24 24"
+                        >
+                          <path d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+                        </svg>
+                      ))}
+                    </div>
+                  ) : null}
                   <span className="text-sm leading-[1.6] font-semibold text-[#1a8dcc]">
                     {item.name}
                   </span>

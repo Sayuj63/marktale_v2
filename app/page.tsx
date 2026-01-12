@@ -15,7 +15,9 @@ import WhatsAppFloat from "./components/WhatsAppFloat";
 import PricingSection from "./components/PricingSection";
 import HomeContactSection from "./components/HomeContactSection";
 
-export default function Home() {
+
+export default async function Home() {
+
   return (
     <main className="min-h-screen bg-white">
       <HeroSection />

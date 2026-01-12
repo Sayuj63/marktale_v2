@@ -6,7 +6,7 @@ import { MessageCircle } from 'lucide-react';
 
 export default function WhatsAppFloat() {
     const handleClick = () => {
-        window.open('https://wa.me/918587870707?text=Hi! I would like to know more about your services.', '_blank');
+        window.open('https://wa.me/918527664228?text=Hi! I would like to know more about your services.', '_blank');
     };
 
     return (

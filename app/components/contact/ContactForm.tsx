@@ -39,7 +39,7 @@ export default function ContactForm() {
         const encodedMessage = encodeURIComponent(whatsappMessage);
 
         // WhatsApp number
-        const whatsappNumber = '918587870707';
+        const whatsappNumber = '918527664228';
 
         // Open WhatsApp with pre-filled message
         window.open(`https://wa.me/${whatsappNumber}?text=${encodedMessage}`, '_blank');
@@ -71,8 +71,8 @@ export default function ContactForm() {
                                 </div>
                                 <div>
                                     <h4 className="text-lg font-bold text-kestone-black mb-1">Call Us</h4>
-                                    <a href="tel:+918587870707" className="text-gray-600 hover:text-kestone-red transition-colors">
-                                        +91-8587870707
+                                    <a href="tel:+918527664228" className="text-gray-600 hover:text-kestone-red transition-colors">
+                                        +91-8527664228
                                     </a>
                                 </div>
                             </div>
@@ -95,17 +95,29 @@ export default function ContactForm() {
                                 </div>
                                 <div>
                                     <h4 className="text-lg font-bold text-kestone-black mb-1">Visit Us</h4>
-                                    <p className="text-gray-600">
+                                    <p className="text-gray-600 mb-4">
                                         Plot no. 141, Sec. 14, Dwarka,<br />
                                         New Delhi – 110078
                                     </p>
+                                    <div className="w-full h-48 rounded-lg overflow-hidden border border-gray-200">
+                                        <iframe
+                                            width="100%"
+                                            height="100%"
+                                            frameBorder="0"
+                                            scrolling="no"
+                                            marginHeight={0}
+                                            marginWidth={0}
+                                            src="https://maps.google.com/maps?q=MarkTale%20Plot%20no.%20141,%20Sec.%2014,%20Dwarka,%20New%20Delhi&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                                            title="MarkTale Location"
+                                        ></iframe>
+                                    </div>
                                 </div>
                             </div>
                         </div>
 
                         <div className="mt-12">
                             <a
-                                href="https://wa.me/918587870707"
+                                href="https://wa.me/918527664228"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="inline-flex items-center px-8 py-3 bg-[#25D366] text-white font-bold rounded-full hover:bg-green-600 transition-colors"

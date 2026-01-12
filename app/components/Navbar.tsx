@@ -7,6 +7,8 @@ import { motion, useScroll, useMotionValueEvent } from 'framer-motion';
 import { cn } from '@/lib/utils';
 import { Menu, X } from 'lucide-react';
 
+import AnnouncementBar from './AnnouncementBar';
+
 export default function Navbar() {
     const { scrollY } = useScroll();
     const [background, setBackground] = useState(false);
@@ -33,56 +35,60 @@ export default function Navbar() {
 
     return (
         <motion.nav
-            className={cn(
-                "fixed top-0 left-0 right-0 z-50 transition-all duration-300",
-                background ? "bg-kestone-black py-4 shadow-md" : "bg-kestone-black py-6"
-            )}
+            className="fixed top-0 left-0 right-0 z-50 bg-kestone-black transition-all duration-300"
             initial={{ y: -100 }}
             animate={{ y: 0 }}
             transition={{ duration: 0.5 }}
         >
-            <div className="container mx-auto px-6 max-w-7xl flex items-center justify-between">
-                {/* Logo */}
-                <Link href="/" className="relative block w-40 h-12">
-                    <Image
-                        src="/images/image.png"
-                        alt="MarkTale"
-                        fill
-                        className="object-contain"
-                        sizes="(max-width: 768px) 160px, 160px"
-                    />
-                </Link>
+            <AnnouncementBar />
 
-                {/* Desktop Menu */}
-                <div className="hidden lg:flex items-center space-x-6 xl:space-x-8">
-                    {navLinks.map((link) => (
-                        <div key={link.name} className="relative group">
-                            <Link
-                                href={link.href}
-                                className="text-white font-body text-sm font-medium hover:text-kestone-red transition-colors duration-200 flex items-center gap-1"
-                            >
-                                {link.name}
-                                {link.hasDropdown && (
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-chevron-down w-4 h-4"><path d="m6 9 6 6 6-6" /></svg>
-                                )}
-                            </Link>
-                        </div>
-                    ))}
-                    <Link
-                        href="/contact"
-                        className="inline-block px-6 py-2 bg-white text-black font-heading font-bold text-sm rounded-full hover:bg-gray-200 transition-colors"
-                    >
-                        Let&apos;s Talk
+            <div className={cn(
+                "w-full transition-all duration-300",
+                background ? "py-4 shadow-md" : "py-6"
+            )}>
+                <div className="container mx-auto px-6 max-w-7xl flex items-center justify-between">
+                    {/* Logo */}
+                    <Link href="/" className="relative block w-40 h-12">
+                        <Image
+                            src="/images/image.png"
+                            alt="MarkTale"
+                            fill
+                            className="object-contain"
+                            sizes="(max-width: 768px) 160px, 160px"
+                        />
                     </Link>
-                </div>
 
-                {/* Mobile Menu Button */}
-                <button
-                    className="lg:hidden text-white"
-                    onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-                >
-                    {mobileMenuOpen ? <X size={28} /> : <Menu size={28} />}
-                </button>
+                    {/* Desktop Menu */}
+                    <div className="hidden lg:flex items-center space-x-6 xl:space-x-8">
+                        {navLinks.map((link) => (
+                            <div key={link.name} className="relative group">
+                                <Link
+                                    href={link.href}
+                                    className="text-white font-body text-sm font-medium hover:text-kestone-red transition-colors duration-200 flex items-center gap-1"
+                                >
+                                    {link.name}
+                                    {link.hasDropdown && (
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-chevron-down w-4 h-4"><path d="m6 9 6 6 6-6" /></svg>
+                                    )}
+                                </Link>
+                            </div>
+                        ))}
+                        <Link
+                            href="/contact"
+                            className="inline-block px-6 py-2 bg-white text-black font-heading font-bold text-sm rounded-full hover:bg-gray-200 transition-colors"
+                        >
+                            Let&apos;s Talk
+                        </Link>
+                    </div>
+
+                    {/* Mobile Menu Button */}
+                    <button
+                        className="lg:hidden text-white"
+                        onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+                    >
+                        {mobileMenuOpen ? <X size={28} /> : <Menu size={28} />}
+                    </button>
+                </div>
             </div>
 
             {/* Mobile Menu Overlay */}

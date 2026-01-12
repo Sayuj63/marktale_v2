@@ -32,7 +32,7 @@ export default function HomeContactSection() {
         const encodedMessage = encodeURIComponent(whatsappMessage);
 
         // WhatsApp number
-        const whatsappNumber = '918587870707';
+        const whatsappNumber = '918527664228';
 
         // Open WhatsApp with pre-filled message
         window.open(`https://wa.me/${whatsappNumber}?text=${encodedMessage}`, '_blank');

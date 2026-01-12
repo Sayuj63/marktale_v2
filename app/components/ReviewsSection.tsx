@@ -18,7 +18,7 @@ export function TestimonialsSection() {
 
       <div className="mt-8 z-10">
         <a
-          href="https://g.page/r/YOUR_GMB_LINK"
+          href="https://www.google.com/maps/search/?api=1&query=MarkTale+Dwarka+Sector+14+New+Delhi"
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex items-center gap-2 px-6 py-3 bg-white border border-gray-200 rounded-full shadow-sm hover:shadow-md transition-all text-sm font-bold text-gray-800"
@@ -36,25 +36,42 @@ export default TestimonialsSection;
 
 const testimonials = [
   {
-    quote:
-      "They think like founders, not vendors. The team aligned perfectly with our vision and executed with precision.",
-    name: "Founder",
-    title: "Stealth Startup",
+    quote: "Professional and supportive team. Great experience!",
+    name: "DivYans Jos",
+    title: "Local Guide",
+    rating: 5,
   },
   {
     quote:
-      "Fast execution and transparent communication. We scaled our operations significantly within months of working with MarkTale.",
-    name: "Director",
-    title: "Retail Brand",
+      "It has been a very good experience working with the Marktale World. All the Employees working here all very supportive, and the founder too is very visionary and Growth Focused",
+    name: "Aditya Sharma",
+    title: "Client",
+    rating: 5,
   },
   {
-    quote: "Their AI-driven approach gave us a competitive edge we didn't know we needed.",
-    name: "CEO",
-    title: "Tech Solutions",
+    quote: "Excellent service and results.",
+    name: "Pranav",
+    title: "Client",
+    rating: 5,
   },
   {
-    quote: "A true growth partner. From branding to tech, they handled everything seamlessly.",
-    name: "Marketing Head",
-    title: "DTC Brand",
+    quote: "Best and creative marketing team.",
+    name: "Komal Kalyan",
+    title: "Client",
+    rating: 5,
+  },
+  {
+    quote:
+      "Choosing MarkTale was the best decision for our brand launch! Their AI-powered marketing strategies helped us grow...",
+    name: "Ashwani Singh",
+    title: "Client",
+    rating: 5,
+  },
+  {
+    quote:
+      "MarkTale World Pvt. Ltd. transformed my small business into a local favorite! Their digital marketing strategies,...",
+    name: "Kaustubh",
+    title: "Client",
+    rating: 5,
   },
 ];
