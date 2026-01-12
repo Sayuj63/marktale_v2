@@ -54,7 +54,7 @@ body {
   }
 
   to {
-    transform: translateX(calc(-100% - var(--gap)));
+    transform: translateX(-50%);
   }
 }
 
