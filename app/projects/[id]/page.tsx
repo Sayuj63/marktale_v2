@@ -1,6 +1,7 @@
 import React from 'react';
 import { notFound } from 'next/navigation';
 import { projects } from '@/lib/projects';
+import Delhi059Page from '@/components/projects/Delhi059Page';
 import PageHero from '@/components/ui/PageHero';
 import TeamCTA from '@/components/TeamCTA';
 import { ArrowLeft } from 'lucide-react';
@@ -25,6 +26,12 @@ export default async function ProjectPage({
         notFound();
     }
 
+    // Special treatment for Delhi 059
+    if (id === 'delhi059') {
+        return <Delhi059Page project={project} />;
+    }
+
+    // Default project page for other projects
     return (
         <div className="bg-white min-h-screen">
             <PageHero
