@@ -10,6 +10,18 @@ const nextConfig: NextConfig = {
       {
         protocol: 'https',
         hostname: 'marktaleworld.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'images.unsplash.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'scontent.cdninstagram.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'www.instagram.com',
       }
     ],
   },

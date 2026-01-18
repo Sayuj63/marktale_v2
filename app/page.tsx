@@ -14,6 +14,7 @@ import WhatsAppMascot from "./components/WhatsAppMascot";
 import WhatsAppFloat from "./components/WhatsAppFloat";
 import PricingSection from "./components/PricingSection";
 import HomeContactSection from "./components/HomeContactSection";
+import CreativeShowcase from "./components/CreativeShowcase";
 
 
 export default async function Home() {
@@ -27,6 +28,7 @@ export default async function Home() {
       <ServicesSection />
       <PricingSection />
       <GlobalIndustries />
+      <CreativeShowcase />
       <Testimonials />
       <Awards />
       <TeamCTA />
