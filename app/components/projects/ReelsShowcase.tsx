@@ -29,17 +29,6 @@ const reels = [
         description: 'Real drivers, real stories, zero commission'
     },
     {
-        id: 3,
-        title: 'Astro Nexus Daily Horoscope',
-        brand: 'Astro Nexus',
-        thumbnail: 'https://www.instagram.com/reel/DS7hwFJkgmk/media/?size=l',
-        instagramUrl: 'https://www.instagram.com/reel/DS7hwFJkgmk/',
-        views: '234K',
-        likes: '18.7K',
-        duration: '0:25',
-        description: 'Your stars aligned for success'
-    },
-    {
         id: 4,
         title: 'Dee Cee Jewelry Showcase',
         brand: 'Dee Cee Accessories',
@@ -72,17 +61,6 @@ const reels = [
         duration: '0:30',
         description: 'Your safety is our priority'
     },
-    {
-        id: 7,
-        title: 'BG Foundation Impact',
-        brand: 'BG Foundation',
-        thumbnail: 'https://www.instagram.com/reel/DTZ9J5SAWXm/media/?size=l',
-        instagramUrl: 'https://www.instagram.com/reel/DTZ9J5SAWXm/',
-        views: '112K',
-        likes: '9.5K',
-        duration: '1:05',
-        description: 'Changing lives, one community at a time'
-    }
 ];
 
 const featuredReel = reels[0];

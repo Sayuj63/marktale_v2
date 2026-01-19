@@ -25,7 +25,7 @@ export default function Navbar() {
     const navLinks = [
         { name: 'Home', href: '/' },
         { name: 'About Us', href: '/about' },
-        { name: 'Services', href: '/services', hasDropdown: true },
+        { name: 'Services', href: '/services' },
         { name: 'Projects', href: '/projects' },
         { name: 'Awards', href: '/awards' },
         { name: 'Careers', href: '/careers' },
@@ -67,9 +67,7 @@ export default function Navbar() {
                                     className="text-white font-body text-sm font-medium hover:text-kestone-red transition-colors duration-200 flex items-center gap-1"
                                 >
                                     {link.name}
-                                    {link.hasDropdown && (
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="lucide lucide-chevron-down w-4 h-4"><path d="m6 9 6 6 6-6" /></svg>
-                                    )}
+
                                 </Link>
                             </div>
                         ))}

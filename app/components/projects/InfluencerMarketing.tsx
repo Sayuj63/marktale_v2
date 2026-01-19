@@ -2,6 +2,7 @@
 
 import React, { useState } from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 import { motion, AnimatePresence } from 'framer-motion';
 import { TrendingUp, Users, Heart, MessageCircle, Share2, DollarSign, Target, Zap, Instagram, Youtube, Twitter } from 'lucide-react';
 
@@ -11,7 +12,7 @@ const campaigns = [
         brand: 'Delhi059',
         influencer: '@foodie_canada',
         platform: 'Instagram',
-        image: 'https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=1200&q=80',
+        image: '/delhi059-logo.jpg',
         followers: '250K',
         engagement: '8.5%',
         reach: '2.1M',
@@ -30,7 +31,7 @@ const campaigns = [
         brand: 'Dee Cee Accessories',
         influencer: '@fashion_forward',
         platform: 'Instagram',
-        image: 'https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=1200&q=80',
+        image: '/Feature_logos/deecee.jpg',
         followers: '180K',
         engagement: '12.3%',
         reach: '1.8M',
@@ -49,7 +50,7 @@ const campaigns = [
         brand: 'Astro Nexus',
         influencer: '@cosmic_vibes',
         platform: 'YouTube',
-        image: 'https://images.unsplash.com/photo-1532153955177-f59af40d6472?w=1200&q=80',
+        image: '/Feature_logos/astronexus.jpg',
         followers: '420K',
         engagement: '6.8%',
         reach: '3.5M',
@@ -65,16 +66,16 @@ const campaigns = [
     },
     {
         id: 4,
-        brand: 'BG Foods',
-        influencer: '@home_chef_pro',
+        brand: 'Biryani Bar',
+        influencer: '@food_explorer',
         platform: 'Instagram',
-        image: 'https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=1200&q=80',
+        image: '/Feature_logos/biryanibar.jpg',
         followers: '310K',
         engagement: '9.2%',
         reach: '2.8M',
         conversions: '670+',
         roi: '14x',
-        description: 'Recipe collaboration that boosted sales',
+        description: 'Authentic biryani launch that went viral',
         metrics: {
             likes: '52K',
             comments: '3.1K',
@@ -181,8 +182,8 @@ export default function InfluencerMarketing() {
                             <motion.div
                                 key={campaign.id}
                                 className={`p-6 rounded-xl cursor-pointer transition-all duration-300 ${selectedCampaign.id === campaign.id
-                                        ? 'bg-gradient-to-r from-pink-500 to-purple-500 text-white shadow-xl scale-105'
-                                        : 'bg-white/80 backdrop-blur-sm hover:bg-white shadow-md hover:shadow-lg'
+                                    ? 'bg-gradient-to-r from-pink-500 to-purple-500 text-white shadow-xl scale-105'
+                                    : 'bg-white/80 backdrop-blur-sm hover:bg-white shadow-md hover:shadow-lg'
                                     }`}
                                 onClick={() => setSelectedCampaign(campaign)}
                                 initial={{ opacity: 0, x: -20 }}
@@ -211,7 +212,7 @@ export default function InfluencerMarketing() {
                                             })}
                                         </div>
                                         <p className={`text-sm font-body ${selectedCampaign.id === campaign.id ? 'text-white/90' : 'text-gray-600'}`}>
-                                            {campaign.influencer} • {campaign.followers} followers
+                                            {campaign.influencer}
                                         </p>
                                     </div>
                                     <div className="text-right">
@@ -329,13 +330,15 @@ export default function InfluencerMarketing() {
                     <p className="text-xl text-white/90 font-body mb-8 max-w-2xl mx-auto">
                         Let's create influencer campaigns that don't just get views—they get results.
                     </p>
-                    <motion.button
-                        className="px-10 py-5 bg-white text-purple-600 font-heading font-bold text-lg rounded-full hover:bg-gray-100 transition-all duration-300 shadow-xl"
-                        whileHover={{ scale: 1.05 }}
-                        whileTap={{ scale: 0.95 }}
-                    >
-                        Start Your Campaign
-                    </motion.button>
+                    <Link href="/contact">
+                        <motion.button
+                            className="px-10 py-5 bg-white text-purple-600 font-heading font-bold text-lg rounded-full hover:bg-gray-100 transition-all duration-300 shadow-xl"
+                            whileHover={{ scale: 1.05 }}
+                            whileTap={{ scale: 0.95 }}
+                        >
+                            Start Your Campaign
+                        </motion.button>
+                    </Link>
                 </motion.div>
             </div>
         </section>

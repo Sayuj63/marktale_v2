@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { motion } from 'framer-motion';
-import { ArrowRight, Video, Search, FileText, Target, ShieldCheck, Palette, TrendingUp, BarChart, Globe } from 'lucide-react';
+import { ArrowRight, Video, Search, FileText, Target, ShieldCheck, Palette, TrendingUp, BarChart, Globe, Smartphone } from 'lucide-react';
 import Link from 'next/link';
 
 const services = [
@@ -32,9 +32,9 @@ const services = [
         description: 'Monitoring and improving your brand perception across digital channels.'
     },
     {
-        title: 'UI / UX Design',
-        icon: Palette,
-        description: 'Designing intuitive and aesthetically pleasing digital experiences.'
+        title: 'Android and iOS Development',
+        icon: Smartphone,
+        description: 'Developing high-performance mobile applications for Android and iOS platforms.'
     },
     {
         title: 'Performance Marketing',

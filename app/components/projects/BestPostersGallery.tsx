@@ -107,6 +107,15 @@ const posters = [
         image: '/creatives/writingrodgerscreative.jpg',
         description: 'Creative writing workshop promotion',
         link: undefined
+    },
+    {
+        id: 12,
+        title: 'TripTale Travel Stories',
+        brand: 'TripTale',
+        category: 'Social Media',
+        image: 'https://www.instagram.com/p/DOdLasDCRCO/media/?size=l',
+        description: 'Engaging travel content series',
+        link: 'https://www.instagram.com/p/DOdLasDCRCO/'
     }
 ];
 

@@ -374,38 +374,55 @@ export const services: ServiceData[] = [
         ]
     },
     {
-        id: 'ui-ux-design',
-        slug: 'ui-ux-design',
-        title: 'UI / UX Design',
-        icon: Palette,
-        image: '/images/services/ui_ux_design_1768164866638.png',
-        tagline: 'Designing Intuitive Digital Experiences',
-        heroDescription: 'Great design is invisible—it just works. We create user-centric interfaces that are not only visually stunning but also intuitive and accessible, reducing friction and delighting users at every interaction.',
-        metaDescription: 'User-centric UI/UX design services. We create beautiful, functional digital products.',
-        desc: "Designing intuitive and visually stunning user interfaces that provide exceptional user experiences.",
-        features: ["User Research", "Prototyping", "Visual Design"],
+        id: 'android-ios-development',
+        slug: 'android-ios-development',
+        title: 'Android and iOS Development',
+        icon: Smartphone,
+        image: '/images/services/mobile_app_dev.png',
+        tagline: 'Transforming Ideas into Powerful Mobile Experiences',
+        heroDescription: 'In a mobile-first world, your business needs to be in your customers’ pockets. We design and develop high-performance Android and iOS applications that offer seamless user experiences, robust functionality, and scalable architecture.',
+        metaDescription: 'Expert Android and iOS app development services. building native and cross-platform mobile solutions.',
+        desc: "Developing high-performance, user-centric mobile applications for Android and iOS platforms.",
+        features: ["Native Development", "Cross-Platform Solutions", "App Store Optimization"],
         sections: [
             {
                 type: 'text',
-                title: 'Empathy-Driven Design',
-                content: 'We start by understanding the user. Through user research and persona mapping, we design flows that solve real problems. Our UI designers then apply a layer of polish, using modern design systems to ensure consistency and beauty across all screens.'
+                title: 'Mobile Excellence',
+                content: 'We build apps that people love to use. From intuitive interfaces to lightning-fast performance, our mobile solutions are engineered to deliver value. Whether you need a native app for maximum performance or a cross-platform solution for faster time-to-market, we have the expertise to bring your vision to life.'
+            },
+            {
+                type: 'list',
+                title: 'Our Mobile Services',
+                content: 'End-to-end mobile development capabilities.',
+                list: [
+                    'iOS App Development (Swift/SwiftUI)',
+                    'Android App Development (Kotlin/Jetpack Compose)',
+                    'Cross-Platform Development (React Native/Flutter)',
+                    'App Maintenance & Updates',
+                    'Mobile UI/UX Design'
+                ]
             },
             {
                 type: 'process',
-                title: 'Our Design Process',
-                content: 'Iterative and collaborative.',
+                title: 'App Development Lifecycle',
+                content: 'From napkin sketch to App Store launch.',
                 list: [
-                    'Discover: User interviews and competitive audit.',
-                    'Define: Wireframing and information architecture.',
-                    'Design: High-fidelity mockups and interactive prototypes.',
-                    'Test: Usability testing and refinement.'
+                    'Strategy & Specs: Defining core features and user flows.',
+                    'Design: Creating wireframes and high-fidelity mockups.',
+                    'Development: Agile coding cycles with regular builds.',
+                    'Testing: Rigorous QA across devices and OS versions.',
+                    'Launch: Handling App Store and Play Store submission processes.'
                 ]
             }
         ],
         faqs: [
             {
-                question: 'What tools do you use?',
-                answer: 'We primarily use Figma for design and prototyping, ensuring easy collaboration and handoff to developers.'
+                question: 'Do you build for both iPhone and Android?',
+                answer: 'Yes, we specialize in both native iOS and Android development, as well as cross-platform frameworks like React Native and Flutter.'
+            },
+            {
+                question: 'How long does it take to build an app?',
+                answer: 'A simple app can take 3-4 months, while more complex enterprise applications may take 6+ months.'
             }
         ]
     },

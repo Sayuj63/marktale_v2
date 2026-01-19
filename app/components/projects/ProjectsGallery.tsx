@@ -11,7 +11,7 @@ const workItems = [
         title: 'Delhi059',
         category: 'Restaurant - Canada',
         description: 'From zero to Canada\'s culinary icon with 650+ Google reviews—all without spending a rupee on performance marketing.',
-        image: 'https://www.marktaleworld.com/clients/delho059.png',
+        image: '/delhi059-logo.jpg',
         tags: ['Hospitality', 'Featured']
     },
     {
@@ -19,7 +19,7 @@ const workItems = [
         title: 'Local Ride',
         category: 'Transportation - Canada',
         description: 'Engineered from the ground up into a thriving Canadian rideshare powerhouse. Full-stack iOS/Android apps with zero commission for drivers.',
-        image: 'https://www.marktaleworld.com/clients/localride.png',
+        image: '/Feature_logos/localride.jpg',
         tags: ['App Development', 'Featured']
     },
     {
@@ -27,7 +27,7 @@ const workItems = [
         title: 'Dee Cee Accessories',
         category: 'Jewelry',
         description: 'Digital setup from scratch. Products photography, SEO based listings on Amazon and Flipkart. Digital Social Media Accounts setup.',
-        image: 'https://www.marktaleworld.com/clients/deeceeacceserioes.png',
+        image: '/Feature_logos/deecee.jpg',
         tags: ['E-commerce', 'Photography']
     },
     {
@@ -43,7 +43,7 @@ const workItems = [
         title: 'Maggo Play School',
         category: 'Education',
         description: 'Creating joyful learning experiences for young minds in Delhi with innovative digital engagement.',
-        image: 'https://www.marktaleworld.com/clients/school1_maggokids.png',
+        image: '/Feature_logos/maggo.png',
         tags: ['Education']
     },
     {
@@ -67,7 +67,7 @@ const workItems = [
         title: 'Promac Advisory',
         category: 'Real Estate - Jaipur',
         description: 'Transforming real estate advisory with data-driven insights and premium digital presence.',
-        image: 'https://www.marktaleworld.com/clients/promac.png',
+        image: '/Feature_logos/promac.png',
         tags: ['Real Estate']
     },
     {
@@ -75,7 +75,7 @@ const workItems = [
         title: 'CabTale',
         category: 'Transportation',
         description: 'Building the future of urban mobility with seamless booking experiences and real-time tracking solutions.',
-        image: 'https://www.marktaleworld.com/clients/cab_cabtale.png',
+        image: '/Feature_logos/cabtale.jpg',
         tags: ['Mobility', 'App Development']
     },
     {
@@ -83,7 +83,7 @@ const workItems = [
         title: 'Astro Nexus',
         category: 'Astrology',
         description: 'Bridging ancient wisdom with modern technology through engaging digital astrology experiences.',
-        image: 'https://www.marktaleworld.com/clients/astronexus.png',
+        image: '/Feature_logos/astronexus.jpg',
         tags: ['Digital Media']
     },
     {
@@ -91,7 +91,7 @@ const workItems = [
         title: 'Biryani Bar',
         category: 'Hospitality',
         description: 'Crafting memorable dining experiences through innovative digital ordering and customer loyalty programs.',
-        image: 'https://www.marktaleworld.com/clients/hotel1_biryanibar.jpg',
+        image: '/Feature_logos/biryanibar.jpg',
         tags: ['Hospitality']
     },
     {
@@ -107,7 +107,7 @@ const workItems = [
         title: 'Writing Rodgers',
         category: 'Education',
         description: 'Empowering writers and educators with comprehensive digital tools and content strategies.',
-        image: 'https://www.marktaleworld.com/clients/writingrodgers.png',
+        image: '/Feature_logos/writing.png',
         tags: ['Education']
     }
 ];
