@@ -14,32 +14,38 @@ const achievements = [
     {
         icon: Trophy,
         title: "Volvo Cars India",
-        desc: "Led high-impact digital marketing, driving campaigns across web, SEO/SEM, email, social media, and display channels.",
+        desc: "Led high-impact digital marketing for Volvo Cars India, driving campaigns across web, SEO/SEM, email, social media, and display channels.",
         year: "2023"
     },
     {
         icon: Briefcase,
         title: "13SQFT.COM",
-        desc: "Spearheaded marketing for AMS and Procurement Partnership Model, improving product visibility through go-to-market strategies.",
+        desc: "Spearheaded marketing for 13SQFT.COM (AMS and Procurement Partnership Model), improving product visibility and engagement through structured go-to-market strategies.",
         year: "2022"
     },
     {
         icon: Award,
         title: "Kamalraj Group",
-        desc: "Headed marketing for residential and commercial projects, increasing client subscriptions and activating new societies.",
+        desc: "Headed marketing for Kamalraj Group (residential and commercial), increasing client subscriptions and activating new societies through performance-driven digital campaigns.",
         year: "2021"
     },
     {
         icon: Mic,
-        title: "Mindwise Media",
-        desc: "Managed election surveys and a 120-member field team as Senior Zonal Coordinator, handling large-scale data collection.",
+        title: "Mindwise Media Research",
+        desc: "Managed election surveys and a 120-member field team as Senior Zonal Coordinator at Mindwise Media Research Unit (India News), handling large-scale data collection and reporting.",
         year: "2019"
     },
     {
         icon: Video,
         title: "Commercial Direction",
-        desc: "Directed and filmed commercial content for Unique Builders, promotional planning for eBay.in, and ads for Square Animation.",
+        desc: "Directed and filmed commercial and promotional content, including a chroma ad for Unique Builders, promotional planning for eBay.in, and ad direction for Square Animation Company.",
         year: "2018"
+    },
+    {
+        icon: Star,
+        title: "National Theatre Actor",
+        desc: "Represented Delhi at the national level as a theatre actor, demonstrating recognized performance skills and national-level visibility.",
+        year: "2017"
     }
 ];
 
