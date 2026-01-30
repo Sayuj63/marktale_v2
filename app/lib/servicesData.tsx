@@ -46,6 +46,61 @@ export interface ServiceData {
 }
 
 export const services: ServiceData[] = [
+    // Priority 1: Core product-building service
+    {
+        id: 'android-ios-development',
+        slug: 'android-ios-development',
+        title: 'Android and iOS Development',
+        icon: Smartphone,
+        image: '/images/services/mobile_app_dev.png',
+        tagline: 'Transforming Ideas into Powerful Mobile Experiences',
+        heroDescription: 'In a mobile-first world, your business needs to be in your customers’ pockets. We design and develop high-performance Android and iOS applications that offer seamless user experiences, robust functionality, and scalable architecture.',
+        metaDescription: 'Expert Android and iOS app development services. building native and cross-platform mobile solutions.',
+        desc: "Developing high-performance, user-centric mobile applications for Android and iOS platforms.",
+        features: ["Native Development", "Cross-Platform Solutions", "App Store Optimization"],
+        sections: [
+            {
+                type: 'text',
+                title: 'Mobile Excellence',
+                content: 'We build apps that people love to use. From intuitive interfaces to lightning-fast performance, our mobile solutions are engineered to deliver value. Whether you need a native app for maximum performance or a cross-platform solution for faster time-to-market, we have the expertise to bring your vision to life.'
+            },
+            {
+                type: 'list',
+                title: 'Our Mobile Services',
+                content: 'End-to-end mobile development capabilities.',
+                list: [
+                    'iOS App Development (Swift/SwiftUI)',
+                    'Android App Development (Kotlin/Jetpack Compose)',
+                    'Cross-Platform Development (React Native/Flutter)',
+                    'App Maintenance & Updates',
+                    'Mobile UI/UX Design'
+                ]
+            },
+            {
+                type: 'process',
+                title: 'App Development Lifecycle',
+                content: 'From napkin sketch to App Store launch.',
+                list: [
+                    'Strategy & Specs: Defining core features and user flows.',
+                    'Design: Creating wireframes and high-fidelity mockups.',
+                    'Development: Agile coding cycles with regular builds.',
+                    'Testing: Rigorous QA across devices and OS versions.',
+                    'Launch: Handling App Store and Play Store submission processes.'
+                ]
+            }
+        ],
+        faqs: [
+            {
+                question: 'Do you build for both iPhone and Android?',
+                answer: 'Yes, we specialize in both native iOS and Android development, as well as cross-platform frameworks like React Native and Flutter.'
+            },
+            {
+                question: 'How long does it take to build an app?',
+                answer: 'A simple app can take 3-4 months, while more complex enterprise applications may take 6+ months.'
+            }
+        ]
+    },
+    // Priority 2: Foundational service - entry point for most clients
     {
         id: 'web-development',
         slug: 'web-development',
@@ -154,6 +209,211 @@ export const services: ServiceData[] = [
             }
         ]
     },
+    // Priority 3: Strategy before execution
+    {
+        id: 'market-research',
+        slug: 'market-research',
+        title: 'Market Research',
+        icon: Search,
+        image: '/images/services/market_research_1768164791783.png',
+        tagline: 'Data-Driven Insights for Confident Decisions',
+        heroDescription: 'Stop guessing and start knowing. Our in-depth market research services provide the concrete data and behavioral insights you need to de-risk your business decisions, identify new opportunities, and outmaneuver the competition.',
+        metaDescription: 'Comprehensive market research services. We provide the data and insights you need to make informed business decisions.',
+        desc: "In-depth understanding of audience needs, pain points, and preferences through qualitative and quantitative analysis.",
+        features: ["Qualitative Research", "Quantitative Analysis", "Observational Studies"],
+        sections: [
+            {
+                type: 'text',
+                title: 'Uncovering the Truth Behind the Trends',
+                content: 'We go beyond surface-level data. Our researchers dive deep into consumer psychology, market dynamics, and competitive landscapes. We use a blend of traditional and modern methodologies to uncover actionable insights that drive product innovation and marketing strategy.'
+            },
+            {
+                type: 'grid',
+                title: 'Research Methodologies',
+                content: 'We employ a diverse toolkit to gather the most accurate data.',
+                list: [
+                    'Consumer Surveys & Polls for broad quantitative data',
+                    'Focus Groups & Interviews for deep qualitative insights',
+                    'Competitive Intelligence to benchmark against industry leaders',
+                    'Trend Analysis to predict future market shifts'
+                ]
+            },
+            {
+                type: 'highlight',
+                title: 'The Value of Insight',
+                content: 'Data without interpretation is noise. We translate complex data sets into clear, strategic recommendations. Whether you are launching a new product or entering a new market, our research provides the roadmap for success.'
+            }
+        ],
+        faqs: [
+            {
+                question: 'What industries do you cover?',
+                answer: 'We have experience across various sectors including technology, retail, healthcare, and finance.'
+            },
+            {
+                question: 'How do you ensure data accuracy?',
+                answer: 'We use verified sample panels and rigorous statistical validation methods to ensure high-confidence results.'
+            }
+        ]
+    },
+    // Priority 4: Converts research into actionable strategy
+    {
+        id: 'marketing-plan-development',
+        slug: 'marketing-plan-development',
+        title: 'Marketing Plan Development',
+        icon: FileText,
+        image: '/images/services/marketing_strategy_1768164808685.png',
+        tagline: 'Strategic Blueprints for Sustainable Growth',
+        heroDescription: 'A goal without a plan is just a wish. We develop comprehensive, data-backed marketing strategies that align with your business objectives, ensuring every dollar spent contributes to your bottom line.',
+        metaDescription: 'Strategic marketing plan development. We build the roadmap to your business success.',
+        desc: "Strategic, data-driven approach to marketing, blending traditional and digital techniques to create customized solutions.",
+        features: ["Comprehensive Planning", "Data-Driven Insights", "Creative Ideation"],
+        sections: [
+            {
+                type: 'text',
+                title: 'Holistic Strategy for a Fragmented World',
+                content: 'In today’s omnichannel environment, consistency is key. We create integrated marketing plans that synchronize your messaging across all touchpoints—from social media and email to PR and offline advertising. Our plans are flexible, measurable, and designed to scale.'
+            },
+            {
+                type: 'list',
+                title: 'What Our Plans Include',
+                content: 'Detailed roadmaps covering every aspect of your marketing ecosystem.',
+                list: [
+                    'Executive Summary & Market Analysis',
+                    'Target Audience Personas & Journey Mapping',
+                    'Channel Strategy & Budget Allocation',
+                    'Content Calendar & Creative Direction',
+                    'KPI Definition & Measurement Frameworks'
+                ]
+            },
+            {
+                type: 'highlight',
+                title: 'Execution-Ready',
+                content: 'We don’t just hand you a document and walk away. Our plans are practical and execution-ready, detailing day-to-day tactics and long-term milestones to ensure your team can hit the ground running.'
+            }
+        ],
+        faqs: [
+            {
+                question: 'Is this suitable for startups?',
+                answer: 'Absolutely. A solid marketing plan is even more critical for startups to ensure efficient use of limited resources.'
+            },
+            {
+                question: 'Do you help with execution?',
+                answer: 'Yes, we can seamlessly transition from planning to full-service execution as your marketing partner.'
+            }
+        ]
+    },
+    // Priority 5: Execution phase focused on ROI
+    {
+        id: 'performance-marketing',
+        slug: 'performance-marketing',
+        title: 'Performance Marketing',
+        icon: TrendingUp,
+        image: '/images/services/performance_marketing_1768164883170.png',
+        tagline: 'Data-Focused Advertising for Maximum ROI',
+        heroDescription: 'Stop wasting budget on impressions that don’t convert. Our performance marketing strategies are laser-focused on driving measurable actions—clicks, leads, and sales—at the lowest possible acquisition cost.',
+        metaDescription: ' ROI-driven performance marketing. We optimize your ad spend for maximum impact.',
+        desc: "Data-focused advertising campaigns optimized for maximum ROI and measurable impact.",
+        features: ["Paid Search", "Social Ads", "Retargeting"],
+        sections: [
+            {
+                type: 'text',
+                title: 'Every Dollar Accountable',
+                content: 'We manage campaigns across Google Ads, Meta (Facebook/Instagram), LinkedIn, and programmatic networks. By constantly A/B testing copy, creatives, and audiences, we ensure your budget is allocated to the highest-performing channels.'
+            },
+            {
+                type: 'list',
+                title: 'Channels We Master',
+                content: 'Optimized for conversion.',
+                list: [
+                    'Search Engine Marketing (SEM/PPC)',
+                    'Social Media Advertising',
+                    'Display & Native Advertising',
+                    'Conversion Rate Optimization (CRO)'
+                ]
+            }
+        ],
+        faqs: [
+            {
+                question: 'How do you charge?',
+                answer: 'We typically work on a hybrid model of management fee plus a percentage of ad spend, incentivizing us to scale your success.'
+            }
+        ]
+    },
+    // Priority 6: Long-term organic growth + measurement
+    {
+        id: 'seo-analytics',
+        slug: 'seo-analytics',
+        title: 'SEO & Analytics',
+        icon: BarChart,
+        image: '/images/services/seo_analytics_1768164897957.png',
+        tagline: 'Visibility and Insights for Long-Term Growth',
+        heroDescription: 'Ranking high is good; ranking for the right keywords is better. We implement white-hat SEO strategies to drive organic traffic, paired with advanced analytics to turn that traffic into actionable business intelligence.',
+        metaDescription: 'Advanced SEO and analytics services. We help you dominate search results and understand your data.',
+        desc: "Improving search engine visibility and deriving actionable insights from data to optimize performance.",
+        features: ["Keyword Strategy", "Technical SEO", "Performance Tracking"],
+        sections: [
+            {
+                type: 'text',
+                title: 'Sustainable Organic Growth',
+                content: 'We don’t chase algorithm fads. We build a solid foundation of technical health, authoritative content, and quality backlinks. Our analytics team then helps you make sense of the data, setting up custom dashboards to track the metrics that actually matter to your C-suite.'
+            },
+            {
+                type: 'grid',
+                title: 'SEO Pillars',
+                content: 'Total site optimization.',
+                list: [
+                    'Technical SEO: Site speed, mobile usability, and schema markup.',
+                    'On-Page SEO: Content optimization and keyword targeting.',
+                    'Off-Page SEO: Link building and authority signaling.',
+                    'Local SEO: GMB optimization for local visibility.'
+                ]
+            }
+        ],
+        faqs: [
+            {
+                question: 'How long until I see results?',
+                answer: 'SEO is a long-term strategy. Significant improvements usually take 3-6 months, but the ROI compounds over time.'
+            }
+        ]
+    },
+    // Priority 7: Tactical service supporting performance + SEO
+    {
+        id: 'lead-generation',
+        slug: 'lead-generation',
+        title: 'Lead Generation',
+        icon: Target,
+        image: '/images/services/lead_generation_1768164831252.png',
+        tagline: 'Fueling Your Sales Pipeline with Quality Prospects',
+        heroDescription: 'Quantity is vanity; quality is sanity. Our lead generation strategies are hyper-focused on identifying and nurturing high-intent prospects who are ready to buy, maximizing your sales team’s efficiency and ROI.',
+        metaDescription: 'High-quality lead generation services. We fill your pipeline with prospects ready to convert.',
+        desc: "Driving brand visibility and customer engagement to generate high-quality leads for your business.",
+        features: ["Targeted Campaigns", "Conversion Optimization", "Pipeline Growth"],
+        sections: [
+            {
+                type: 'text',
+                title: 'Precision Targeting',
+                content: 'We don’t rely on spray-and-pray tactics. Using advanced data profiling and intent monitoring, we pinpoint the exact decision-makers who need your solution. We engage them with personalized content that addresses their specific pain points, guiding them through the funnel until they are sales-ready.'
+            },
+            {
+                type: 'grid',
+                title: 'Lead Gen Channels',
+                content: 'We leverage a mix of inbound and outbound channels.',
+                list: [
+                    'LinkedIn & B2B Social Selling',
+                    'Content Syndication & Gated Assets',
+                    'PPC & Display Retargeting',
+                    'Email Marketing Automation'
+                ]
+            }
+        ],
+        faqs: [
+            {
+                question: 'How do you qualify leads?',
+                answer: 'We use custom scoring models based on demographic fit and behavioral engagement (e.g., downloading a whitepaper, visiting pricing pages).'
+            }
+        ]
+    },
+    // Priority 8: Supporting service feeding marketing channels
     {
         id: 'video-content-creation',
         slug: 'video-content-creation',
@@ -210,133 +470,7 @@ export const services: ServiceData[] = [
             }
         ]
     },
-    {
-        id: 'market-research',
-        slug: 'market-research',
-        title: 'Market Research',
-        icon: Search,
-        image: '/images/services/market_research_1768164791783.png',
-        tagline: 'Data-Driven Insights for Confident Decisions',
-        heroDescription: 'Stop guessing and start knowing. Our in-depth market research services provide the concrete data and behavioral insights you need to de-risk your business decisions, identify new opportunities, and outmaneuver the competition.',
-        metaDescription: 'Comprehensive market research services. We provide the data and insights you need to make informed business decisions.',
-        desc: "In-depth understanding of audience needs, pain points, and preferences through qualitative and quantitative analysis.",
-        features: ["Qualitative Research", "Quantitative Analysis", "Observational Studies"],
-        sections: [
-            {
-                type: 'text',
-                title: 'Uncovering the Truth Behind the Trends',
-                content: 'We go beyond surface-level data. Our researchers dive deep into consumer psychology, market dynamics, and competitive landscapes. We use a blend of traditional and modern methodologies to uncover actionable insights that drive product innovation and marketing strategy.'
-            },
-            {
-                type: 'grid',
-                title: 'Research Methodologies',
-                content: 'We employ a diverse toolkit to gather the most accurate data.',
-                list: [
-                    'Consumer Surveys & Polls for broad quantitative data',
-                    'Focus Groups & Interviews for deep qualitative insights',
-                    'Competitive Intelligence to benchmark against industry leaders',
-                    'Trend Analysis to predict future market shifts'
-                ]
-            },
-            {
-                type: 'highlight',
-                title: 'The Value of Insight',
-                content: 'Data without interpretation is noise. We translate complex data sets into clear, strategic recommendations. Whether you are launching a new product or entering a new market, our research provides the roadmap for success.'
-            }
-        ],
-        faqs: [
-            {
-                question: 'What industries do you cover?',
-                answer: 'We have experience across various sectors including technology, retail, healthcare, and finance.'
-            },
-            {
-                question: 'How do you ensure data accuracy?',
-                answer: 'We use verified sample panels and rigorous statistical validation methods to ensure high-confidence results.'
-            }
-        ]
-    },
-    {
-        id: 'marketing-plan-development',
-        slug: 'marketing-plan-development',
-        title: 'Marketing Plan Development',
-        icon: FileText,
-        image: '/images/services/marketing_strategy_1768164808685.png',
-        tagline: 'Strategic Blueprints for Sustainable Growth',
-        heroDescription: 'A goal without a plan is just a wish. We develop comprehensive, data-backed marketing strategies that align with your business objectives, ensuring every dollar spent contributes to your bottom line.',
-        metaDescription: 'Strategic marketing plan development. We build the roadmap to your business success.',
-        desc: "Strategic, data-driven approach to marketing, blending traditional and digital techniques to create customized solutions.",
-        features: ["Comprehensive Planning", "Data-Driven Insights", "Creative Ideation"],
-        sections: [
-            {
-                type: 'text',
-                title: 'Holistic Strategy for a Fragmented World',
-                content: 'In today’s omnichannel environment, consistency is key. We create integrated marketing plans that synchronize your messaging across all touchpoints—from social media and email to PR and offline advertising. Our plans are flexible, measurable, and designed to scale.'
-            },
-            {
-                type: 'list',
-                title: 'What Our Plans Include',
-                content: 'Detailed roadmaps covering every aspect of your marketing ecosystem.',
-                list: [
-                    'Executive Summary & Market Analysis',
-                    'Target Audience Personas & Journey Mapping',
-                    'Channel Strategy & Budget Allocation',
-                    'Content Calendar & Creative Direction',
-                    'KPI Definition & Measurement Frameworks'
-                ]
-            },
-            {
-                type: 'highlight',
-                title: 'Execution-Ready',
-                content: 'We don’t just hand you a document and walk away. Our plans are practical and execution-ready, detailing day-to-day tactics and long-term milestones to ensure your team can hit the ground running.'
-            }
-        ],
-        faqs: [
-            {
-                question: 'Is this suitable for startups?',
-                answer: 'Absolutely. A solid marketing plan is even more critical for startups to ensure efficient use of limited resources.'
-            },
-            {
-                question: 'Do you help with execution?',
-                answer: 'Yes, we can seamlessly transition from planning to full-service execution as your marketing partner.'
-            }
-        ]
-    },
-    {
-        id: 'lead-generation',
-        slug: 'lead-generation',
-        title: 'Lead Generation',
-        icon: Target,
-        image: '/images/services/lead_generation_1768164831252.png',
-        tagline: 'Fueling Your Sales Pipeline with Quality Prospects',
-        heroDescription: 'Quantity is vanity; quality is sanity. Our lead generation strategies are hyper-focused on identifying and nurturing high-intent prospects who are ready to buy, maximizing your sales team’s efficiency and ROI.',
-        metaDescription: 'High-quality lead generation services. We fill your pipeline with prospects ready to convert.',
-        desc: "Driving brand visibility and customer engagement to generate high-quality leads for your business.",
-        features: ["Targeted Campaigns", "Conversion Optimization", "Pipeline Growth"],
-        sections: [
-            {
-                type: 'text',
-                title: 'Precision Targeting',
-                content: 'We don’t rely on spray-and-pray tactics. Using advanced data profiling and intent monitoring, we pinpoint the exact decision-makers who need your solution. We engage them with personalized content that addresses their specific pain points, guiding them through the funnel until they are sales-ready.'
-            },
-            {
-                type: 'grid',
-                title: 'Lead Gen Channels',
-                content: 'We leverage a mix of inbound and outbound channels.',
-                list: [
-                    'LinkedIn & B2B Social Selling',
-                    'Content Syndication & Gated Assets',
-                    'PPC & Display Retargeting',
-                    'Email Marketing Automation'
-                ]
-            }
-        ],
-        faqs: [
-            {
-                question: 'How do you qualify leads?',
-                answer: 'We use custom scoring models based on demographic fit and behavioral engagement (e.g., downloading a whitepaper, visiting pricing pages).'
-            }
-        ]
-    },
+    // Priority 9: Maintenance + brand trust
     {
         id: 'online-reputation-management',
         slug: 'online-reputation-management',
@@ -370,131 +504,6 @@ export const services: ServiceData[] = [
             {
                 question: 'Can you remove bad reviews?',
                 answer: 'While we cannot forcefully delete legitimate reviews, we can help dispute violations and suppress them by generating a volume of positive feedback.'
-            }
-        ]
-    },
-    {
-        id: 'android-ios-development',
-        slug: 'android-ios-development',
-        title: 'Android and iOS Development',
-        icon: Smartphone,
-        image: '/images/services/mobile_app_dev.png',
-        tagline: 'Transforming Ideas into Powerful Mobile Experiences',
-        heroDescription: 'In a mobile-first world, your business needs to be in your customers’ pockets. We design and develop high-performance Android and iOS applications that offer seamless user experiences, robust functionality, and scalable architecture.',
-        metaDescription: 'Expert Android and iOS app development services. building native and cross-platform mobile solutions.',
-        desc: "Developing high-performance, user-centric mobile applications for Android and iOS platforms.",
-        features: ["Native Development", "Cross-Platform Solutions", "App Store Optimization"],
-        sections: [
-            {
-                type: 'text',
-                title: 'Mobile Excellence',
-                content: 'We build apps that people love to use. From intuitive interfaces to lightning-fast performance, our mobile solutions are engineered to deliver value. Whether you need a native app for maximum performance or a cross-platform solution for faster time-to-market, we have the expertise to bring your vision to life.'
-            },
-            {
-                type: 'list',
-                title: 'Our Mobile Services',
-                content: 'End-to-end mobile development capabilities.',
-                list: [
-                    'iOS App Development (Swift/SwiftUI)',
-                    'Android App Development (Kotlin/Jetpack Compose)',
-                    'Cross-Platform Development (React Native/Flutter)',
-                    'App Maintenance & Updates',
-                    'Mobile UI/UX Design'
-                ]
-            },
-            {
-                type: 'process',
-                title: 'App Development Lifecycle',
-                content: 'From napkin sketch to App Store launch.',
-                list: [
-                    'Strategy & Specs: Defining core features and user flows.',
-                    'Design: Creating wireframes and high-fidelity mockups.',
-                    'Development: Agile coding cycles with regular builds.',
-                    'Testing: Rigorous QA across devices and OS versions.',
-                    'Launch: Handling App Store and Play Store submission processes.'
-                ]
-            }
-        ],
-        faqs: [
-            {
-                question: 'Do you build for both iPhone and Android?',
-                answer: 'Yes, we specialize in both native iOS and Android development, as well as cross-platform frameworks like React Native and Flutter.'
-            },
-            {
-                question: 'How long does it take to build an app?',
-                answer: 'A simple app can take 3-4 months, while more complex enterprise applications may take 6+ months.'
-            }
-        ]
-    },
-    {
-        id: 'performance-marketing',
-        slug: 'performance-marketing',
-        title: 'Performance Marketing',
-        icon: TrendingUp,
-        image: '/images/services/performance_marketing_1768164883170.png',
-        tagline: 'Data-Focused Advertising for Maximum ROI',
-        heroDescription: 'Stop wasting budget on impressions that don’t convert. Our performance marketing strategies are laser-focused on driving measurable actions—clicks, leads, and sales—at the lowest possible acquisition cost.',
-        metaDescription: ' ROI-driven performance marketing. We optimize your ad spend for maximum impact.',
-        desc: "Data-focused advertising campaigns optimized for maximum ROI and measurable impact.",
-        features: ["Paid Search", "Social Ads", "Retargeting"],
-        sections: [
-            {
-                type: 'text',
-                title: 'Every Dollar Accountable',
-                content: 'We manage campaigns across Google Ads, Meta (Facebook/Instagram), LinkedIn, and programmatic networks. By constantly A/B testing copy, creatives, and audiences, we ensure your budget is allocated to the highest-performing channels.'
-            },
-            {
-                type: 'list',
-                title: 'Channels We Master',
-                content: 'Optimized for conversion.',
-                list: [
-                    'Search Engine Marketing (SEM/PPC)',
-                    'Social Media Advertising',
-                    'Display & Native Advertising',
-                    'Conversion Rate Optimization (CRO)'
-                ]
-            }
-        ],
-        faqs: [
-            {
-                question: 'How do you charge?',
-                answer: 'We typically work on a hybrid model of management fee plus a percentage of ad spend, incentivizing us to scale your success.'
-            }
-        ]
-    },
-    {
-        id: 'seo-analytics',
-        slug: 'seo-analytics',
-        title: 'SEO & Analytics',
-        icon: BarChart,
-        image: '/images/services/seo_analytics_1768164897957.png',
-        tagline: 'Visibility and Insights for Long-Term Growth',
-        heroDescription: 'Ranking high is good; ranking for the right keywords is better. We implement white-hat SEO strategies to drive organic traffic, paired with advanced analytics to turn that traffic into actionable business intelligence.',
-        metaDescription: 'Advanced SEO and analytics services. We help you dominate search results and understand your data.',
-        desc: "Improving search engine visibility and deriving actionable insights from data to optimize performance.",
-        features: ["Keyword Strategy", "Technical SEO", "Performance Tracking"],
-        sections: [
-            {
-                type: 'text',
-                title: 'Sustainable Organic Growth',
-                content: 'We don’t chase algorithm fads. We build a solid foundation of technical health, authoritative content, and quality backlinks. Our analytics team then helps you make sense of the data, setting up custom dashboards to track the metrics that actually matter to your C-suite.'
-            },
-            {
-                type: 'grid',
-                title: 'SEO Pillars',
-                content: 'Total site optimization.',
-                list: [
-                    'Technical SEO: Site speed, mobile usability, and schema markup.',
-                    'On-Page SEO: Content optimization and keyword targeting.',
-                    'Off-Page SEO: Link building and authority signaling.',
-                    'Local SEO: GMB optimization for local visibility.'
-                ]
-            }
-        ],
-        faqs: [
-            {
-                question: 'How long until I see results?',
-                answer: 'SEO is a long-term strategy. Significant improvements usually take 3-6 months, but the ROI compounds over time.'
             }
         ]
     }

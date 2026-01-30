@@ -7,9 +7,14 @@ import Link from 'next/link';
 
 const services = [
     {
-        title: 'Video Content Creation',
-        icon: Video,
-        description: 'Crafting captivating video content to engage audiences and tell your brand story.'
+        title: 'Android and iOS Development',
+        icon: Smartphone,
+        description: 'Developing high-performance mobile applications for Android and iOS platforms.'
+    },
+    {
+        title: 'Web Development',
+        icon: Globe,
+        description: 'Building robust, scalable, and high-performance websites and applications.'
     },
     {
         title: 'Market Research',
@@ -22,21 +27,6 @@ const services = [
         description: 'Comprehensive planning, data-driven insights, and creative ideation for growth.'
     },
     {
-        title: 'Lead Generation',
-        icon: Target,
-        description: 'Strategies to attract and convert high-quality leads for your business.'
-    },
-    {
-        title: 'Online Reputation Management',
-        icon: ShieldCheck,
-        description: 'Monitoring and improving your brand perception across digital channels.'
-    },
-    {
-        title: 'Android and iOS Development',
-        icon: Smartphone,
-        description: 'Developing high-performance mobile applications for Android and iOS platforms.'
-    },
-    {
         title: 'Performance Marketing',
         icon: TrendingUp,
         description: 'Data-focused advertising campaigns optimized for maximum ROI.'
@@ -47,9 +37,19 @@ const services = [
         description: 'Improving visibility and deriving actionable insights from data.'
     },
     {
-        title: 'Web Development',
-        icon: Globe,
-        description: 'Building robust, scalable, and high-performance websites and applications.'
+        title: 'Lead Generation',
+        icon: Target,
+        description: 'Strategies to attract and convert high-quality leads for your business.'
+    },
+    {
+        title: 'Video Content Creation',
+        icon: Video,
+        description: 'Crafting captivating video content to engage audiences and tell your brand story.'
+    },
+    {
+        title: 'Online Reputation Management',
+        icon: ShieldCheck,
+        description: 'Monitoring and improving your brand perception across digital channels.'
     }
 ];
 
