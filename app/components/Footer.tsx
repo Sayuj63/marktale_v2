@@ -28,11 +28,18 @@ export default function Footer() {
                             A Unit of MarkTale World Private Limited
                         </p>
                         <div className="flex space-x-4">
-                            {[Facebook, Twitter, Linkedin, Instagram].map((Icon, i) => (
-                                <a key={i} href="#" className="w-10 h-10 bg-gray-800 flex items-center justify-center rounded-full hover:bg-kestone-red transition-colors text-white">
-                                    <Icon size={18} />
-                                </a>
-                            ))}
+                            <a href="https://www.facebook.com/marktaleworld" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-gray-800 flex items-center justify-center rounded-full hover:bg-kestone-red transition-colors text-white">
+                                <Facebook size={18} />
+                            </a>
+                            <a href="https://x.com/MarktaleAi" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-gray-800 flex items-center justify-center rounded-full hover:bg-kestone-red transition-colors text-white">
+                                <Twitter size={18} />
+                            </a>
+                            <a href="https://www.linkedin.com/company/marktaleworld/posts/?feedView=all" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-gray-800 flex items-center justify-center rounded-full hover:bg-kestone-red transition-colors text-white">
+                                <Linkedin size={18} />
+                            </a>
+                            <a href="https://www.instagram.com/marktaleworld/" target="_blank" rel="noopener noreferrer" className="w-10 h-10 bg-gray-800 flex items-center justify-center rounded-full hover:bg-kestone-red transition-colors text-white">
+                                <Instagram size={18} />
+                            </a>
                         </div>
                     </div>
 
