@@ -19,7 +19,7 @@ export default function Testimonials() {
                 <div className="relative z-10 text-white text-center">
                     <Quote className="w-12 h-12 mb-6 mx-auto" />
                     <h3 className="text-3xl md:text-5xl font-heading font-bold leading-tight mb-4">
-                        Awesome B2B <br /> Marketing Agency. <br /> Flawless Project <br /> Delivery.
+                        Awesome B2C <br /> Marketing Agency. <br /> Flawless Project <br /> Delivery.
                     </h3>
                 </div>
                 {/* Decorative Circles if needed */}
