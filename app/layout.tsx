@@ -4,6 +4,7 @@ import "./globals.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 import BehavioralPopups from "./components/BehavioralPopups";
+import ValentineFeatures from "./components/ValentineFeatures";
 
 const montserrat = Montserrat({
   variable: "--font-montserrat",
@@ -33,6 +34,7 @@ export default function RootLayout({
         className={`${montserrat.variable} ${roboto.variable} antialiased font-body overflow-x-hidden flex flex-col min-h-screen`}
       >
         <BehavioralPopups />
+        <ValentineFeatures />
         <Navbar />
         {children}
         <Footer />
