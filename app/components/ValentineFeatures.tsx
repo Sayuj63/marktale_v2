@@ -43,13 +43,12 @@ function ValentineLoader() {
     const [textIndex, setTextIndex] = useState(0);
 
     const textSteps = [
-        "Make a hook line...",
-        "If you don't fall in love...",
-        "You can fall in love with MarkTale ❤️",
+        "Fall in love with results.",
+        "Fall in love with MarkTale ❤️",
     ];
 
     useEffect(() => {
-        const stepDuration = 2000;
+        const stepDuration = 2500;
 
         const interval = setInterval(() => {
             setTextIndex((prev) => {

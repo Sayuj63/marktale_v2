@@ -62,7 +62,7 @@ export default function HeroSection() {
                                 <h2 className="text-xl md:text-2xl font-body font-bold text-kestone-red uppercase tracking-widest mb-4">
                                     {slides[currentSlide].subtitle}
                                 </h2>
-                                <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-heading font-bold text-kestone-black leading-tight">
+                                <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-heading font-bold text-red-600 leading-tight">
                                     {slides[currentSlide].title}
                                 </h1>
                             </motion.div>

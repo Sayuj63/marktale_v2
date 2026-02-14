@@ -21,6 +21,9 @@ const roboto = Roboto({
 export const metadata: Metadata = {
   title: "MarkTale | AI Powered Marketing Agency",
   description: "An advertising company helping brands succeed in both traditional and digital marketing.",
+  icons: {
+    icon: "/images/logo.png",
+  },
 };
 
 export default function RootLayout({
