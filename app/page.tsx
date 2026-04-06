@@ -5,7 +5,7 @@ import AboutSection from "./components/AboutSection";
 import WorkGallery from "./components/WorkGallery";
 import Testimonials from "./components/Testimonials";
 import StartupFeature from "./components/StartupFeature";
-import Awards from "./components/Awards";
+import AwardsGrid from "./components/awards/AwardsGrid";
 import TeamCTA from "./components/TeamCTA";
 import GlobalIndustries from "./components/GlobalIndustries";
 import CertificationsSection from "./components/CertificationsSection";
@@ -30,7 +30,7 @@ export default async function Home() {
       <GlobalIndustries />
       <CreativeShowcase />
       <Testimonials />
-      <Awards />
+      <AwardsGrid />
       <TeamCTA />
       <AboutSection />
       <CertificationsSection />
