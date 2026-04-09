@@ -23,6 +23,9 @@ export const metadata: Metadata = {
   icons: {
     icon: "/images/logo.png",
   },
+  verification: {
+    google: "APNS6nHozhiQP3ShefFpxbHPSuvD0Nt-YMr-k2Wu9VE",
+  },
 };
 
 export default function RootLayout({
